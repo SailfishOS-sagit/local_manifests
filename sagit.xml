@@ -12,4 +12,6 @@
     <project path="vendor/xiaomi" name="AICP/proprietary_vendor_xiaomi" revision="p9.0" />
     <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
     <project path="vendor/lineage" name="SailfishOS-sagit/android_vendor_lineage" revision="lineage-16.0" />
+    <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
+    <project path="hybris/hybris-installer" name="SailfishOS-sagit/hybris-installer" revision="master" />
 </manifest>
