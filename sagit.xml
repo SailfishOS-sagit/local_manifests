@@ -13,4 +13,6 @@
     <project path="vendor/lineage" name="SailfishOS-sagit/android_vendor_lineage" revision="lineage-16.0" />
     <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
     <project path="hybris/hybris-installer" name="SailfishOS-sagit/hybris-installer" revision="master" />
+    <!-- Custom fingerprint -->
+    <project path="hybris/mw/sailfish-fpd-community" name="piggz/sailfish-fpd-community" revision="master" />
 </manifest>
