@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <project path="rpm"                            name="SailfishOS-sagit/droid-hal-sagit"         revision="hybris-16.0" />
-    <project path="hybris/droid-configs"           name="SailfishOS-sagit/droid-config-sagit"      revision="hybris-16.0" />
-    <project path="hybris/droid-hal-version-sagit" name="SailfishOS-sagit/droid-hal-version-sagit" revision="master" />
-    <remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
-    <project path="hybris/hybris-boot" name="SailfishOS-sagit/hybris-boot" revision="master" />
-    <project path="kernel/xiaomi/msm8998" name="SailfishOS-sagit/android_kernel_xiaomi_msm8998" revision="hybris-16.0" />
-    <project path="device/xiaomi/msm8998-common" name="SailfishOS-sagit/android_device_xiaomi_msm8998-common" revision="hybris-16.0" />
+    <project path="kernel/xiaomi/msm8998" name="SailfishOS-sagit/android_kernel_xiaomi_msm8998" revision="lineage-16.0" />
+    <project path="device/xiaomi/msm8998-common" name="SailfishOS-sagit/android_device_xiaomi_msm8998-common" revision="lineage-16.0" />
     <project path="device/xiaomi/sagit" name="SailfishOS-sagit/android_device_xiaomi_sagit" revision="lineage-16.0" />
     <project path="vendor/xiaomi" name="SailfishOS-sagit/android_vendor_xiaomi" revision="lineage-16.0" />
-    <remove-project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
-    <project path="vendor/lineage" name="SailfishOS-sagit/android_vendor_lineage" revision="lineage-16.0" />
-    <!-- Custom hybris installer implementation (https://git.io/fjMH9) -->
-    <project path="hybris/hybris-installer" name="SailfishOS-sagit/hybris-installer" revision="master" />
-    <!-- Custom fingerprint -->
-    <project path="hybris/mw/sailfish-fpd-community" name="piggz/sailfish-fpd-community" revision="master" />
 </manifest>
