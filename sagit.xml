@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <!-- Custom clang -->
+    <project path="prebuilts/clang/host/linux-x86/clang-r383902" name="SailfishOS-sagit/prebuilts_clang_host_linux-x86_clang-r383902" revision="10" remote="github" />
     <project path="rpm"                            name="SailfishOS-sagit/droid-hal-sagit"         revision="hybris-16.0" />
     <project path="hybris/droid-configs"           name="SailfishOS-sagit/droid-config-sagit"      revision="hybris-16.0" />
     <project path="hybris/droid-hal-version-sagit" name="SailfishOS-sagit/droid-hal-version-sagit" revision="master" />
